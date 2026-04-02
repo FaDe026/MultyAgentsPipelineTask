@@ -1,0 +1,210 @@
+{
+  "role": "Backend Python Developer",
+  "generated_at": "2026-04-02T22:00:12+03:00",
+  "skill_map": {
+    "languages": [
+      {
+        "name": "Python",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "SQL",
+        "demand": "important",
+        "trend": "stable"
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "Django",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "Flask",
+        "demand": "important",
+        "trend": "stable"
+      }
+    ],
+    "infrastructure": [
+      {
+        "name": "PostgreSQL",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "AWS",
+        "demand": "important",
+        "trend": "growing"
+      }
+    ],
+    "soft_skills": [
+      {
+        "name": "Problem-solving",
+        "demand": "critical",
+        "trend": "stable"
+      },
+      {
+        "name": "Collaboration",
+        "demand": "important",
+        "trend": "stable"
+      }
+    ]
+  },
+  "salary_table": {
+    "Junior": {
+      "Moscow": {
+        "min": 60,
+        "median": 85,
+        "max": 120
+      },
+      "Regions_RF": {
+        "min": 50,
+        "median": 70,
+        "max": 100
+      },
+      "Remote_USD": {
+        "min": 3000,
+        "median": 4500,
+        "max": 6000
+      }
+    },
+    "Middle": {
+      "Moscow": {
+        "min": 120,
+        "median": 180,
+        "max": 250
+      },
+      "Regions_RF": {
+        "min": 100,
+        "median": 140,
+        "max": 200
+      },
+      "Remote_USD": {
+        "min": 5000,
+        "median": 7000,
+        "max": 10000
+      }
+    },
+    "Senior": {
+      "Moscow": {
+        "min": 200,
+        "median": 300,
+        "max": 450
+      },
+      "Regions_RF": {
+        "min": 160,
+        "median": 240,
+        "max": 350
+      },
+      "Remote_USD": {
+        "min": 8000,
+        "median": 12000,
+        "max": 18000
+      }
+    },
+    "Lead": {
+      "Moscow": {
+        "min": 300,
+        "median": 450,
+        "max": 600
+      },
+      "Regions_RF": {
+        "min": 240,
+        "median": 360,
+        "max": 500
+      },
+      "Remote_USD": {
+        "min": 15000,
+        "median": 22000,
+        "max": 30000
+      }
+    }
+  },
+  "market_trend": "growing",
+  "market_trend_reason": "The demand for Python, Django, PostgreSQL, AWS and problem-solving skills is growing due to increased adoption of cloud technologies and data-driven decisions.",
+  "top_employers": [
+    "Google",
+    "Yandex",
+    "Mail.Ru Group",
+    "Microsoft",
+    "IBM"
+  ],
+  "learning_path": [
+    {
+      "phase": "Foundations (30 days)",
+      "topics": [
+        "Python Fundamentals",
+        "SQL Basics"
+      ],
+      "resources": [
+        {
+          "title": "Learn Python the Hard Way",
+          "type": "book"
+        },
+        {
+          "title": "SQL Tutorial for Beginners - Learn SQL in 1 Hour!",
+          "type": "article"
+        }
+      ],
+      "milestone": "Complete Python and SQL Basics"
+    },
+    {
+      "phase": "Practice (30 days)",
+      "topics": [
+        "Django Framework",
+        "PostgreSQL"
+      ],
+      "resources": [
+        {
+          "title": "Django Girls Tutorial",
+          "type": "course"
+        },
+        {
+          "title": "PostgreSQL Documentation",
+          "type": "documentation"
+        }
+      ],
+      "milestone": "Complete Django and PostgreSQL projects"
+    },
+    {
+      "phase": "Portfolio (30 days)",
+      "topics": [
+        "AWS Services"
+      ],
+      "resources": [
+        {
+          "title": "A Cloud Guru - AWS Certified Solutions Architect Associate",
+          "type": "course"
+        }
+      ],
+      "milestone": "Deploy a production-ready application on AWS"
+    }
+  ],
+  "gap_analysis": {
+    "quick_wins": [
+      "Flask",
+      "AWS"
+    ],
+    "long_term": [
+      "Advanced Django, Data Structures and Algorithms"
+    ]
+  },
+  "portfolio_project": {
+    "title": "E-commerce Web Application",
+    "description": "Develop a full-stack e-commerce web application using Django, PostgreSQL for data storage, and AWS for hosting. Implement user authentication, product catalog, shopping cart, and checkout functionality.",
+    "skills_demonstrated": [
+      "Django",
+      "PostgreSQL",
+      "AWS"
+    ]
+  },
+  "verification": {
+    "quality_score": 95,
+    "reason": "The report exhibits a well-structured organization of skills and learning resources for the Backend Python Developer role. However, it contains minor issues that have been deducted from the original score.",
+    "warnings": [
+      "Salaries in some regions are lower than expected considering the critical demand for several skills."
+    ],
+    "is_consistent": true
+  }
+}

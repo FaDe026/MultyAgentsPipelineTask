@@ -1,0 +1,236 @@
+{
+  "role": "ML Engineer",
+  "generated_at": "2026-04-03T00:31:18+03:00",
+  "skill_map": {
+    "languages": [
+      {
+        "name": "Python",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "R",
+        "demand": "important",
+        "trend": "stable"
+      },
+      {
+        "name": "Java",
+        "demand": "nice-to-have",
+        "trend": "declining"
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "TensorFlow",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "Pytorch",
+        "demand": "important",
+        "trend": "growing"
+      },
+      {
+        "name": "Scikit-learn",
+        "demand": "nice-to-have",
+        "trend": "stable"
+      }
+    ],
+    "infrastructure": [
+      {
+        "name": "Docker",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "Kubernetes",
+        "demand": "important",
+        "trend": "growing"
+      },
+      {
+        "name": "Hadoop",
+        "demand": "nice-to-have",
+        "trend": "declining"
+      }
+    ],
+    "soft_skills": [
+      {
+        "name": "Problem Solving",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "Communication",
+        "demand": "important",
+        "trend": "stable"
+      },
+      {
+        "name": "Collaboration",
+        "demand": "nice-to-have",
+        "trend": "growing"
+      }
+    ]
+  },
+  "salary_table": {
+    "Junior": {
+      "Moscow": {
+        "min": 60,
+        "median": 85,
+        "max": 120
+      },
+      "Regions_RF": {
+        "min": 45,
+        "median": 65,
+        "max": 95
+      },
+      "Remote_USD": {
+        "min": 3000,
+        "median": 4500,
+        "max": 6000
+      }
+    },
+    "Middle": {
+      "Moscow": {
+        "min": 120,
+        "median": 180,
+        "max": 250
+      },
+      "Regions_RF": {
+        "min": 90,
+        "median": 130,
+        "max": 190
+      },
+      "Remote_USD": {
+        "min": 5000,
+        "median": 7000,
+        "max": 10000
+      }
+    },
+    "Senior": {
+      "Moscow": {
+        "min": 200,
+        "median": 300,
+        "max": 450
+      },
+      "Regions_RF": {
+        "min": 150,
+        "median": 220,
+        "max": 320
+      },
+      "Remote_USD": {
+        "min": 8000,
+        "median": 12000,
+        "max": 16000
+      }
+    },
+    "Lead": {
+      "Moscow": {
+        "min": 400,
+        "median": 550,
+        "max": 750
+      },
+      "Regions_RF": {
+        "min": 300,
+        "median": 450,
+        "max": 600
+      },
+      "Remote_USD": {
+        "min": 15000,
+        "median": 20000,
+        "max": 25000
+      }
+    }
+  },
+  "market_trend": "growing",
+  "market_trend_reason": "Increased demand for AI, data science and cloud infrastructure skills.",
+  "top_employers": [
+    "Google",
+    "Microsoft",
+    "Amazon Web Services (AWS)",
+    "IBM",
+    "Accenture"
+  ],
+  "learning_path": [
+    {
+      "phase": "Foundations (30 days)",
+      "topics": [
+        "Python Programming",
+        "Machine Learning Basics"
+      ],
+      "resources": [
+        {
+          "title": "Python for Everybody",
+          "type": "book"
+        },
+        {
+          "title": "Machine Learning Crash Course",
+          "type": "course"
+        }
+      ],
+      "milestone": "Complete Python programming fundamentals and understand basic machine learning concepts."
+    },
+    {
+      "phase": "Practice (30 days)",
+      "topics": [
+        "Deep Learning with TensorFlow",
+        "Data Preprocessing"
+      ],
+      "resources": [
+        {
+          "title": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+          "type": "book"
+        },
+        {
+          "title": "Python Data Preprocessing Cookbook",
+          "type": "book"
+        }
+      ],
+      "milestone": "Build a project using Python for data preprocessing and deep learning with TensorFlow."
+    },
+    {
+      "phase": "Portfolio (30 days)",
+      "topics": [
+        "ML Project Development",
+        "Presentation Skills"
+      ],
+      "resources": [
+        {
+          "title": "Data Science from Scratch",
+          "type": "course"
+        },
+        {
+          "title": "Speak Like a Pro",
+          "type": "course"
+        }
+      ],
+      "milestone": "Develop, train, and evaluate an ML project with TensorFlow, and present it effectively."
+    }
+  ],
+  "gap_analysis": {
+    "quick_wins": [
+      "Docker",
+      "Kubernetes"
+    ],
+    "long_term": [
+      "Pytorch"
+    ]
+  },
+  "portfolio_project": {
+    "title": "Personalized Recommendation System",
+    "description": "Build a recommendation system using collaborative filtering techniques and TensorFlow to provide personalized movie recommendations based on user's viewing history.",
+    "skills_demonstrated": [
+      "Python",
+      "TensorFlow",
+      "Docker",
+      "Kubernetes"
+    ]
+  },
+  "verification": {
+    "quality_score": 95,
+    "reason": "The report is well-structured and follows most of the critical validation rules. However, there are a few minor issues that have resulted in a slight deduction.",
+    "warnings": [
+      "Some soft skills are included in the 'gap_analysis' field."
+    ],
+    "is_consistent": true
+  }
+}
