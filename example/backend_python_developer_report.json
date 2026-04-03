@@ -1,0 +1,215 @@
+{
+  "role": "Backend Python Developer",
+  "generated_at": "2026-04-03T13:58:25+03:00",
+  "skill_map": {
+    "languages": [
+      {
+        "name": "Python",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "SQL",
+        "demand": "important",
+        "trend": "stable"
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "Django",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "Flask",
+        "demand": "important",
+        "trend": "stable"
+      }
+    ],
+    "infrastructure": [
+      {
+        "name": "PostgreSQL",
+        "demand": "critical",
+        "trend": "stable"
+      },
+      {
+        "name": "MySQL",
+        "demand": "important",
+        "trend": "declining"
+      }
+    ],
+    "soft_skills": [
+      {
+        "name": "Problem-solving",
+        "demand": "critical",
+        "trend": "growing"
+      },
+      {
+        "name": "Collaboration",
+        "demand": "important",
+        "trend": "stable"
+      }
+    ]
+  },
+  "salary_table": {
+    "Junior": {
+      "Moscow": {
+        "min": 50,
+        "median": 70,
+        "max": 100
+      },
+      "Regions_RF": {
+        "min": 40,
+        "median": 60,
+        "max": 80
+      },
+      "Remote_USD": {
+        "min": 2000,
+        "median": 3000,
+        "max": 4000
+      }
+    },
+    "Middle": {
+      "Moscow": {
+        "min": 100,
+        "median": 150,
+        "max": 200
+      },
+      "Regions_RF": {
+        "min": 80,
+        "median": 120,
+        "max": 160
+      },
+      "Remote_USD": {
+        "min": 4000,
+        "median": 5000,
+        "max": 6000
+      }
+    },
+    "Senior": {
+      "Moscow": {
+        "min": 150,
+        "median": 200,
+        "max": 300
+      },
+      "Regions_RF": {
+        "min": 120,
+        "median": 180,
+        "max": 240
+      },
+      "Remote_USD": {
+        "min": 6000,
+        "median": 7500,
+        "max": 9000
+      }
+    },
+    "Lead": {
+      "Moscow": {
+        "min": 200,
+        "median": 300,
+        "max": 400
+      },
+      "Regions_RF": {
+        "min": 180,
+        "median": 250,
+        "max": 320
+      },
+      "Remote_USD": {
+        "min": 9000,
+        "median": 12000,
+        "max": 15000
+      }
+    }
+  },
+  "market_trend": "growing",
+  "market_trend_reason": "Demand for Python and Django is high, especially in the remote market.",
+  "top_employers": [
+    "Google",
+    "Yandex",
+    "Mail.ru Group",
+    "Microsoft",
+    "IBM"
+  ],
+  "learning_path": [
+    {
+      "phase": "Foundations (30 days)",
+      "topics": [
+        "Python Programming",
+        "SQL Basics"
+      ],
+      "resources": [
+        {
+          "title": "Learn Python the Hard Way",
+          "type": "book",
+          "link": "https://learnpythonthehardway.org/"
+        },
+        {
+          "title": "A Byte of Python",
+          "type": "course",
+          "link": "https://www.swaroopch.com/notes/ABoP"
+        }
+      ],
+      "milestone": "Complete basic Python projects and understand SQL syntax"
+    },
+    {
+      "phase": "Practice (30 days)",
+      "topics": [
+        "Django Framework",
+        "PostgreSQL"
+      ],
+      "resources": [
+        {
+          "title": "Django Girls Tutorial",
+          "type": "course",
+          "link": "https://tutorial.djangogirls.org/"
+        },
+        {
+          "title": "PostgreSQL Documentation",
+          "type": "documentation",
+          "link": "https://www.postgresql.org/docs/"
+        }
+      ],
+      "milestone": "Build a small Django web application with PostgreSQL database"
+    },
+    {
+      "phase": "Portfolio (30 days)",
+      "topics": [
+        "Web Application Development"
+      ],
+      "resources": [
+        {
+          "title": "Full Stack Web Development Bootcamp",
+          "type": "course",
+          "link": "https://www.udemy.com/course/full-stack-web-development/"
+        }
+      ],
+      "milestone": "Develop a personal project using Django and PostgreSQL"
+    }
+  ],
+  "gap_analysis": {
+    "quick_wins": [
+      "Flask Framework",
+      "MySQL"
+    ],
+    "long_term": [
+      "Advanced Django Concepts",
+      "Advanced Database Design"
+    ]
+  },
+  "portfolio_project": {
+    "title": "Online Task Management System",
+    "description": "A web application where users can create, assign and track tasks. Uses Django as the backend framework, PostgreSQL for the database, and has a user-friendly interface.",
+    "skills_demonstrated": [
+      "Django",
+      "PostgreSQL"
+    ]
+  },
+  "verification": {
+    "quality_score": 95,
+    "reason": "The report is well-structured with minimal issues. It covers essential skills, salary information, learning path, gap analysis, and portfolio project.",
+    "warnings": [
+      "Skill 'MySQL' has a declining trend, which may not be a priority for learning unless for legacy maintenance."
+    ],
+    "is_consistent": true
+  }
+}

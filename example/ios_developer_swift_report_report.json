@@ -1,6 +1,6 @@
 {
   "role": "iOS Developer (Swift)",
-  "generated_at": "2026-04-02T22:12:48+03:00",
+  "generated_at": "2026-04-03T13:16:16+03:00",
   "skill_map": {
     "languages": [
       {
@@ -16,9 +16,9 @@
     ],
     "frameworks": [
       {
-        "name": "Cocoa Touch",
+        "name": "UIKit",
         "demand": "critical",
-        "trend": "growing"
+        "trend": "stable"
       },
       {
         "name": "SwiftUI",
@@ -33,14 +33,14 @@
         "trend": "stable"
       },
       {
-        "name": "iOS SDK",
-        "demand": "critical",
+        "name": "CocoaPods",
+        "demand": "important",
         "trend": "growing"
       }
     ],
     "soft_skills": [
       {
-        "name": "Problem Solving",
+        "name": "Problem-Solving",
         "demand": "critical",
         "trend": "stable"
       },
@@ -55,35 +55,35 @@
     "Junior": {
       "Moscow": {
         "min": 60,
-        "median": 85,
-        "max": 120
+        "median": 80,
+        "max": 100
       },
       "Regions_RF": {
         "min": 50,
         "median": 70,
-        "max": 100
+        "max": 90
       },
       "Remote_USD": {
-        "min": 3000,
-        "median": 4000,
-        "max": 5000
+        "min": 2500,
+        "median": 3500,
+        "max": 4500
       }
     },
     "Middle": {
       "Moscow": {
-        "min": 120,
-        "median": 180,
-        "max": 250
-      },
-      "Regions_RF": {
         "min": 100,
-        "median": 140,
+        "median": 150,
         "max": 200
       },
+      "Regions_RF": {
+        "min": 80,
+        "median": 120,
+        "max": 160
+      },
       "Remote_USD": {
-        "min": 4500,
-        "median": 6000,
-        "max": 7500
+        "min": 4000,
+        "median": 5500,
+        "max": 7000
       }
     },
     "Senior": {
@@ -93,42 +93,42 @@
         "max": 350
       },
       "Regions_RF": {
-        "min": 150,
+        "min": 140,
         "median": 200,
-        "max": 250
+        "max": 280
       },
       "Remote_USD": {
         "min": 7000,
         "median": 9000,
-        "max": 11000
+        "max": 12000
       }
     },
     "Lead": {
       "Moscow": {
         "min": 300,
-        "median": 450,
-        "max": 600
+        "median": 400,
+        "max": 500
       },
       "Regions_RF": {
-        "min": 250,
-        "median": 350,
-        "max": 450
+        "min": 220,
+        "median": 300,
+        "max": 400
       },
       "Remote_USD": {
-        "min": 11000,
-        "median": 14000,
-        "max": 17000
+        "min": 12000,
+        "median": 16000,
+        "max": 20000
       }
     }
   },
   "market_trend": "growing",
-  "market_trend_reason": "The demand for iOS development skills is increasing due to the growth of mobile app usage and the popularity of Apple devices.",
+  "market_trend_reason": "Increased demand for mobile development and Apple ecosystem skills",
   "top_employers": [
-    "Apple Inc",
+    "Apple Inc.",
     "Google LLC",
+    "Facebook, Inc.",
     "Microsoft Corporation",
-    "Sberbank",
-    "Yandex"
+    "Tencent Holdings Ltd."
   ],
   "learning_path": [
     {
@@ -136,83 +136,89 @@
       "topics": [
         "Swift basics",
         "Objective-C fundamentals",
-        "iOS app development"
+        "UIKit introduction"
       ],
       "resources": [
         {
           "title": "Learn Swift - Apple Developer",
-          "type": "documentation"
+          "type": "documentation",
+          "link": "https://developer.apple.com/swift/"
         },
         {
-          "title": "Swift Programming Language",
-          "type": "book"
+          "title": "iOS App Development Bootcamp",
+          "type": "course",
+          "link": "https://www.udemy.com/course/ios-app-development-for-beginners/"
         }
       ],
-      "milestone": "Complete Swift Playground tutorials and build a simple iOS app"
+      "milestone": "Completing a simple iOS app using Swift and UIKit"
     },
     {
       "phase": "Practice (30 days)",
       "topics": [
-        "Cocoa Touch",
-        "SwiftUI",
-        "iOS SDK"
+        "SwiftUI basics",
+        "CocoaPods management"
       ],
       "resources": [
         {
-          "title": "SwiftUI by Paul Hudson",
-          "type": "course"
+          "title": "Learn SwiftUI - Apple Developer",
+          "type": "documentation",
+          "link": "https://developer.apple.com/swiftui/"
         },
         {
-          "title": "iOS App Development for Beginners - Ray Wenderlich",
-          "type": "course"
+          "title": "SwiftUI Tutorial for Beginners: Build a Custom UIKit View!",
+          "type": "article",
+          "link": "https://www.hackingwithswift.com/quick-start/swiftui/what-is-swiftui"
         }
       ],
-      "milestone": "Build a project using SwiftUI and Cocoa Touch, and submit it to the App Store"
+      "milestone": "Building an app using SwiftUI and CocoaPods"
     },
     {
       "phase": "Portfolio (30 days)",
       "topics": [
-        "Project development",
-        "Quality assurance",
-        "Deployment"
+        "Creating a problem-solving project",
+        "Collaboration for development"
       ],
       "resources": [
         {
-          "title": "iOS App Development Best Practices - Ray Wenderlich",
-          "type": "article"
+          "title": "SwiftUI Projects - Advanced",
+          "type": "course",
+          "link": "https://www.udemy.com/course/advanced-swiftui/"
         },
         {
-          "title": "Testing Strategies for iOS Apps - TestFairy",
-          "type": "documentation"
+          "title": "iOS Development Best Practices for Collaboration",
+          "type": "article",
+          "link": "https://medium.com/@shahbazali/ios-development-best-practices-for-collaboration-c481f3033573"
         }
       ],
-      "milestone": "Develop, test, and deploy a feature-rich iOS app to the App Store"
+      "milestone": "Developing a portfolio project demonstrating problem-solving and collaboration skills"
     }
   ],
   "gap_analysis": {
     "quick_wins": [
-      "SwiftUI",
-      "iOS SDK"
+      "SwiftUI basics",
+      "CocoaPods management"
     ],
     "long_term": [
       "Advanced Swift concepts",
-      "Deep understanding of Cocoa Touch"
+      "Deep dive into SwiftUI API"
     ]
   },
   "portfolio_project": {
-    "title": "Weather App with SwiftUI",
-    "description": "A weather application for iOS that displays current weather conditions, hourly forecast, and daily forecast. The app will use APIs like OpenWeatherMap to fetch data.",
+    "title": "Weather App with SwiftUI and APIs",
+    "description": "Create a weather app for different locations using SwiftUI, APIs like OpenWeatherMap, Alamofire, and CoreLocation. Implement features like current weather, 5-day forecast, saved locations, and more.",
     "skills_demonstrated": [
+      "Swift",
       "SwiftUI",
-      "iOS SDK",
-      "APIs"
+      "APIs",
+      "Alamofire",
+      "CoreLocation"
     ]
   },
   "verification": {
     "quality_score": 95,
-    "reason": "The report is well-structured and adheres to most of the critical validation rules. However, it has a few minor issues that deduct points.",
+    "reason": "The report is well-structured and follows most of the critical validation rules. However, there are a few minor issues that need to be addressed.",
     "warnings": [
-      "Skill 'Objective-C' trend is stable but still included in the learning path."
+      "Some soft skills are present in the 'gap_analysis' section which should only contain technical skills."
     ],
     "is_consistent": true
   }

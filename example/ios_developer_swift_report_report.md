@@ -2,7 +2,7 @@
 
 **Role:** iOS Developer (Swift)
 
-**Generated at:** 2026-04-02T22:12:48+03:00
+**Generated at:** 2026-04-03T13:16:16+03:00
 
 ---
 
@@ -12,11 +12,11 @@
 |-----------|-------|------------------|-------|
 | languages | Swift | critical | growing |
 | languages | Objective-C | important | stable |
-| frameworks | Cocoa Touch | critical | growing |
+| frameworks | UIKit | critical | stable |
 | frameworks | SwiftUI | important | growing |
 | infrastructure | Xcode | critical | stable |
-| infrastructure | iOS SDK | critical | growing |
-| soft_skills | Problem Solving | critical | stable |
+| infrastructure | CocoaPods | important | growing |
+| soft_skills | Problem-Solving | critical | stable |
 | soft_skills | Collaboration | important | growing |
 
 ---
@@ -25,18 +25,18 @@
 
 | Грейд | Регион | Min | Median | Max |
 |-------|--------|-----|--------|-----|
-| Junior | Moscow | 60 | 85 | 120 |
-| Junior | Regions_RF | 50 | 70 | 100 |
-| Junior | Remote_USD | 3000 | 4000 | 5000 |
-| Middle | Moscow | 120 | 180 | 250 |
-| Middle | Regions_RF | 100 | 140 | 200 |
-| Middle | Remote_USD | 4500 | 6000 | 7500 |
+| Junior | Moscow | 60 | 80 | 100 |
+| Junior | Regions_RF | 50 | 70 | 90 |
+| Junior | Remote_USD | 2500 | 3500 | 4500 |
+| Middle | Moscow | 100 | 150 | 200 |
+| Middle | Regions_RF | 80 | 120 | 160 |
+| Middle | Remote_USD | 4000 | 5500 | 7000 |
 | Senior | Moscow | 180 | 250 | 350 |
-| Senior | Regions_RF | 150 | 200 | 250 |
-| Senior | Remote_USD | 7000 | 9000 | 11000 |
-| Lead | Moscow | 300 | 450 | 600 |
-| Lead | Regions_RF | 250 | 350 | 450 |
-| Lead | Remote_USD | 11000 | 14000 | 17000 |
+| Senior | Regions_RF | 140 | 200 | 280 |
+| Senior | Remote_USD | 7000 | 9000 | 12000 |
+| Lead | Moscow | 300 | 400 | 500 |
+| Lead | Regions_RF | 220 | 300 | 400 |
+| Lead | Remote_USD | 12000 | 16000 | 20000 |
 
 ---
 
@@ -44,66 +44,66 @@
 
 **Trend:** growing
 
-**Reason:** The demand for iOS development skills is increasing due to the growth of mobile app usage and the popularity of Apple devices.
+**Reason:** Increased demand for mobile development and Apple ecosystem skills
 
 ---
 
 ## Top Employers
 
-Apple Inc, Google LLC, Microsoft Corporation, Sberbank, Yandex
+Apple Inc., Google LLC, Facebook, Inc., Microsoft Corporation, Tencent Holdings Ltd.
 
 ---
 
 ## Learning Path
 
 ### Foundations (30 days)
-**Темы:** Swift basics, Objective-C fundamentals, iOS app development
+**Темы:** Swift basics, Objective-C fundamentals, UIKit introduction
 
-**Ресурсы:** Learn Swift - Apple Developer, Swift Programming Language
+**Ресурсы:** Learn Swift - Apple Developer, iOS App Development Bootcamp
 
-**Milestone:** Complete Swift Playground tutorials and build a simple iOS app
+**Milestone:** Completing a simple iOS app using Swift and UIKit
 
 ### Practice (30 days)
-**Темы:** Cocoa Touch, SwiftUI, iOS SDK
+**Темы:** SwiftUI basics, CocoaPods management
 
-**Ресурсы:** SwiftUI by Paul Hudson, iOS App Development for Beginners - Ray Wenderlich
+**Ресурсы:** Learn SwiftUI - Apple Developer, SwiftUI Tutorial for Beginners: Build a Custom UIKit View!
 
-**Milestone:** Build a project using SwiftUI and Cocoa Touch, and submit it to the App Store
+**Milestone:** Building an app using SwiftUI and CocoaPods
 
 ### Portfolio (30 days)
-**Темы:** Project development, Quality assurance, Deployment
+**Темы:** Creating a problem-solving project, Collaboration for development
 
-**Ресурсы:** iOS App Development Best Practices - Ray Wenderlich, Testing Strategies for iOS Apps - TestFairy
+**Ресурсы:** SwiftUI Projects - Advanced, iOS Development Best Practices for Collaboration
 
-**Milestone:** Develop, test, and deploy a feature-rich iOS app to the App Store
+**Milestone:** Developing a portfolio project demonstrating problem-solving and collaboration skills
 
 
 ---
 
 ## Gap Analysis
 
-**Quick Wins (2-4 недели):** SwiftUI, iOS SDK
+**Quick Wins (2-4 недели):** SwiftUI basics, CocoaPods management
 
-**Long Term (3+ месяца):** Advanced Swift concepts, Deep understanding of Cocoa Touch
+**Long Term (3+ месяца):** Advanced Swift concepts, Deep dive into SwiftUI API
 
 ---
 
 ## Portfolio Project
 
-### Weather App with SwiftUI
+### Weather App with SwiftUI and APIs
 
-A weather application for iOS that displays current weather conditions, hourly forecast, and daily forecast. The app will use APIs like OpenWeatherMap to fetch data.
+Create a weather app for different locations using SwiftUI, APIs like OpenWeatherMap, Alamofire, and CoreLocation. Implement features like current weather, 5-day forecast, saved locations, and more.
 
-**Технологии:** SwiftUI, iOS SDK, APIs
+**Технологии:** Swift, SwiftUI, APIs, Alamofire, CoreLocation
 
 ---
 
 ## Verification
 
 **Quality Score:** 95/100
-**Reason:** The report is well-structured and adheres to most of the critical validation rules. However, it has a few minor issues that deduct points.
+**Reason:** The report is well-structured and follows most of the critical validation rules. However, there are a few minor issues that need to be addressed.
 
 **Warnings:**
-- Skill 'Objective-C' trend is stable but still included in the learning path.
+- Some soft skills are present in the 'gap_analysis' section which should only contain technical skills.
 
 **Is Consistent:** True

@@ -9,7 +9,7 @@ class CriticAgent(Agent):
         prompt = f"""
 You are a VERY strict AI report auditor.
 
-Review the following multi-agent generated career report:
+Review the following multi-agent generated career report and return ONLY valid JSON:
 
 {json.dumps(data, indent=2)}
 
@@ -47,8 +47,8 @@ CRITICAL VALIDATION RULES:
      Skills marked "critical" should appear in `learning_path` or `gap_analysis`. If critical skills are ignored, it's a bad plan.
 
 SCORING:
-- Start with 100 points
-- Deduct 5 points for each violated rule or minor issues
+- Give quality score for report
+- Deduct 5 points for EACH violated rule or minor issues
 - Deduct 10 points if salaries don't match skill demand levels
 - Deduct 15 points if critical skills exist but salaries are too low
 - If any critical rule violated, is_consistent = false   

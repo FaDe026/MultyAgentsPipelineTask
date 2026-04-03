@@ -14,7 +14,7 @@ def role_to_filename(role: str):
     role = role.lower()
     role = re.sub(r"\s+", "_", role)
     role = re.sub(r"[^\w_]", "", role)
-    return f"{role}_report"
+    return role
 
 
 def save_json(data):

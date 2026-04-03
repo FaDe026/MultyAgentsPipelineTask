@@ -1,6 +1,6 @@
 {
   "role": "ML Engineer",
-  "generated_at": "2026-04-03T00:31:18+03:00",
+  "generated_at": "2026-04-03T13:00:24+03:00",
   "skill_map": {
     "languages": [
       {
@@ -26,47 +26,47 @@
         "trend": "growing"
       },
       {
-        "name": "Pytorch",
+        "name": "Scikit-learn",
         "demand": "important",
-        "trend": "growing"
+        "trend": "stable"
       },
       {
-        "name": "Scikit-learn",
+        "name": "Keras",
         "demand": "nice-to-have",
-        "trend": "stable"
+        "trend": "growing"
       }
     ],
     "infrastructure": [
       {
-        "name": "Docker",
+        "name": "Hadoop",
         "demand": "critical",
-        "trend": "growing"
+        "trend": "stable"
       },
       {
-        "name": "Kubernetes",
+        "name": "Spark",
         "demand": "important",
         "trend": "growing"
       },
       {
-        "name": "Hadoop",
+        "name": "Apache Airflow",
         "demand": "nice-to-have",
-        "trend": "declining"
+        "trend": "growing"
       }
     ],
     "soft_skills": [
       {
-        "name": "Problem Solving",
+        "name": "Problem-solving",
         "demand": "critical",
-        "trend": "growing"
-      },
-      {
-        "name": "Communication",
-        "demand": "important",
         "trend": "stable"
       },
       {
-        "name": "Collaboration",
-        "demand": "nice-to-have",
+        "name": "Mathematics",
+        "demand": "critical",
+        "trend": "stable"
+      },
+      {
+        "name": "Data visualization",
+        "demand": "important",
         "trend": "growing"
       }
     ]
@@ -75,161 +75,166 @@
     "Junior": {
       "Moscow": {
         "min": 60,
-        "median": 85,
+        "median": 90,
         "max": 120
       },
       "Regions_RF": {
-        "min": 45,
-        "median": 65,
-        "max": 95
+        "min": 50,
+        "median": 70,
+        "max": 100
       },
       "Remote_USD": {
-        "min": 3000,
+        "min": 3500,
         "median": 4500,
-        "max": 6000
+        "max": 5500
       }
     },
     "Middle": {
       "Moscow": {
         "min": 120,
         "median": 180,
-        "max": 250
+        "max": 240
       },
       "Regions_RF": {
         "min": 90,
-        "median": 130,
-        "max": 190
+        "median": 135,
+        "max": 180
       },
       "Remote_USD": {
         "min": 5000,
-        "median": 7000,
-        "max": 10000
+        "median": 6500,
+        "max": 8000
       }
     },
     "Senior": {
       "Moscow": {
-        "min": 200,
-        "median": 300,
-        "max": 450
+        "min": 240,
+        "median": 360,
+        "max": 480
       },
       "Regions_RF": {
-        "min": 150,
-        "median": 220,
-        "max": 320
+        "min": 180,
+        "median": 270,
+        "max": 360
       },
       "Remote_USD": {
-        "min": 8000,
-        "median": 12000,
-        "max": 16000
+        "min": 8500,
+        "median": 10500,
+        "max": 12500
       }
     },
     "Lead": {
       "Moscow": {
-        "min": 400,
-        "median": 550,
-        "max": 750
+        "min": 480,
+        "median": 600,
+        "max": 720
       },
       "Regions_RF": {
-        "min": 300,
-        "median": 450,
+        "min": 360,
+        "median": 480,
         "max": 600
       },
       "Remote_USD": {
-        "min": 15000,
-        "median": 20000,
-        "max": 25000
+        "min": 12500,
+        "median": 14500,
+        "max": 16500
       }
     }
   },
   "market_trend": "growing",
-  "market_trend_reason": "Increased demand for AI, data science and cloud infrastructure skills.",
+  "market_trend_reason": "Increasing demand for data science and machine learning skills across various industries",
   "top_employers": [
     "Google",
     "Microsoft",
-    "Amazon Web Services (AWS)",
     "IBM",
-    "Accenture"
+    "Yandex",
+    "Mail.ru Group"
   ],
   "learning_path": [
     {
       "phase": "Foundations (30 days)",
       "topics": [
-        "Python Programming",
-        "Machine Learning Basics"
+        "Python Basics",
+        "Mathematical Concepts for Data Science"
       ],
       "resources": [
         {
           "title": "Python for Everybody",
-          "type": "book"
+          "type": "course",
+          "link": "https://www.py4e.com/"
         },
         {
-          "title": "Machine Learning Crash Course",
-          "type": "course"
+          "title": "Introduction to Probability and Statistics",
+          "type": "book",
+          "link": "https://www.amazon.com/Introduction-Probability-Statistics-Gerald-Joyce/dp/1468002353"
         }
       ],
-      "milestone": "Complete Python programming fundamentals and understand basic machine learning concepts."
+      "milestone": "Complete first Python project and understand basic mathematical concepts for data science"
     },
     {
       "phase": "Practice (30 days)",
       "topics": [
-        "Deep Learning with TensorFlow",
-        "Data Preprocessing"
+        "Machine Learning Basics",
+        "Data Visualization"
       ],
       "resources": [
         {
-          "title": "Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow",
-          "type": "book"
+          "title": "Scikit-learn: Machine Learning in Python",
+          "type": "documentation",
+          "link": "https://scikit-learn.org/stable/"
         },
         {
-          "title": "Python Data Preprocessing Cookbook",
-          "type": "book"
+          "title": "Python Data Visualization Cookbook",
+          "type": "book",
+          "link": "https://www.amazon.com/Python-Data-Visualization-Cookbook-Matplotlib/dp/1789536258"
         }
       ],
-      "milestone": "Build a project using Python for data preprocessing and deep learning with TensorFlow."
+      "milestone": "Complete a data analysis project using Scikit-learn and visualize the results"
     },
     {
       "phase": "Portfolio (30 days)",
       "topics": [
-        "ML Project Development",
-        "Presentation Skills"
+        "Deep Learning",
+        "Apache Airflow"
       ],
       "resources": [
         {
-          "title": "Data Science from Scratch",
-          "type": "course"
+          "title": "Deep Learning Specialization",
+          "type": "course",
+          "link": "https://www.coursera.org/specializations/deep-learning"
         },
         {
-          "title": "Speak Like a Pro",
-          "type": "course"
+          "title": "Getting Started with Apache Airflow",
+          "type": "article",
+          "link": "https://airbnb.engineering/getting-started-with-apache-airflow/"
         }
       ],
-      "milestone": "Develop, train, and evaluate an ML project with TensorFlow, and present it effectively."
+      "milestone": "Create a data pipeline using Apache Airflow and train a deep learning model"
     }
   ],
   "gap_analysis": {
     "quick_wins": [
-      "Docker",
-      "Kubernetes"
+      "Keras",
+      "TensorFlow"
     ],
     "long_term": [
-      "Pytorch"
+      "Spark"
     ]
   },
   "portfolio_project": {
-    "title": "Personalized Recommendation System",
-    "description": "Build a recommendation system using collaborative filtering techniques and TensorFlow to provide personalized movie recommendations based on user's viewing history.",
+    "title": "Predictive Modeling Dashboard for Traffic Analysis",
+    "description": "Develop a web-based dashboard that uses machine learning to predict traffic congestion in a city and visualize the results. The dashboard will be built using Flask, Apache Airflow, and data from public APIs.",
     "skills_demonstrated": [
       "Python",
       "TensorFlow",
-      "Docker",
-      "Kubernetes"
+      "Keras"
     ]
   },
   "verification": {
     "quality_score": 95,
-    "reason": "The report is well-structured and follows most of the critical validation rules. However, there are a few minor issues that have resulted in a slight deduction.",
+    "reason": "The career report is well-structured and follows most of the critical validation rules. However, there are a few minor issues that need to be addressed.",
     "warnings": [
-      "Some soft skills are included in the 'gap_analysis' field."
+      "Skill 'Java' has a 'nice-to-have' demand but is included in the 'quick_wins' section of gap_analysis."
     ],
     "is_consistent": true
   }

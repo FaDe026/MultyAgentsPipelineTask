@@ -5,9 +5,7 @@ from agents.base_agent import Agent
 
 class MarketAnalystAgent(Agent):
 
-    def run(self, data: dict):
-
-        role = data["role"]
+    def run(self, role: str) -> dict:
 
         prompt = f"""
 Analyze the IT job market for the role: {role}
@@ -58,6 +56,4 @@ JSON format:
 
         result = self.llm.generate_json(prompt)
 
-        data["skill_map"] = result.get("skill_map", {})
-
-        return data
+        return {"skill_map": result.get("skill_map", {})}

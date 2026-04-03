@@ -19,14 +19,15 @@ IMPORTANT RULES:
 2. STRUCTURE: learning_path must have EXACTLY 3 phases.
 3. RESOURCES: Each phase must have at least 2 resources.
    - Allowed types: "course", "book", "documentation", "article".
+   - Documentation can be link to the official documentation.
 4. PORTFOLIO: 
    - skills_demonstrated must include at least 3 technical skills from languages, frameworks 
    or infrastructure sections of skill_map.
 5. GAP ANALYSIS:
-  - quick_wins: TECHNICAL skills only (from languages/frameworks/infrastructure).
+  - quick_wins: TECHNICAL skills only (from languages/frameworks/infrastructure, or core technical concepts).
      These should be learnable in 2-4 weeks (narrow scope, beginner-friendly).
      DO NOT include soft skills.
-   - long_term: ADVANCED TECHNICAL skills only (from languages/frameworks/infrastructure).
+   - long_term: ADVANCED TECHNICAL skills only (from languages/frameworks/infrastructure, or advanced topics).
      These require 3+ months of dedicated study (complex, advanced).
      DO NOT include soft skills.
 6. PORTFOLIO PROJECT:
@@ -40,7 +41,7 @@ JSON Schema:
       "phase": "Foundations (30 days)",
       "topics": ["topic"],
       "resources": [
-        {{ "title": "resource title", "type": "course|book|documentation|article" }}
+        {{ "title": "resource title", "type": "course|book|documentation|article", "link": "if exist" }}
       ],
       "milestone": "achievable milestone"
     }},
